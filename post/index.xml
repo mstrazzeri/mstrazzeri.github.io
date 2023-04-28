@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Maurizio Strazzeri</title>
+    <link>https://mstrazzeri.github.io/post/</link>
+    <description>Recent content in Posts on Maurizio Strazzeri</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    
+	<atom:link href="https://mstrazzeri.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Title of the post</title>
+      <link>https://mstrazzeri.github.io/post/my-first-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mstrazzeri.github.io/post/my-first-post/</guid>
+      <description>Kasdf kdsfkldf dsfm,.safmsd.</description>
+    </item>
+    
+  </channel>
+</rss>
