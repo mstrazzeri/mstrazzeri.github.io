@@ -93,10 +93,12 @@ footer {
 
 
 h1.page-title {
-  color: black !important;       /* Überschrift schwarz */
-  font-family: "Inter", sans-serif;
-  font-weight: 600;              /* optional: fett */
-  margin-bottom: 16px;           /* optional: Abstand nach unten */
+  color: black !important;            /* Überschrift schwarz */
+  font-family: "Inter", sans-serif;   /* Inter bleibt */
+  font-weight: 600;                   /* fett, optional */
+  font-size: 24px !important;         /* hier die Größe anpassen */
+  margin-bottom: 12px;                /* Abstand nach unten */
+  line-height: 1.3;                   /* optional für kompakten Look */
 }
 
 
