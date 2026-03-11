@@ -133,25 +133,29 @@ nav a {
 }
 
 
-li + p.media-block {
-  margin-top: 4px;      /* kleiner Abstand nach oben zum <li> */
-  margin-left: 20px;    /* Einrückung, passend zum Listeneinzug */
-  font-size: 16px;      /* optional, etwas kleiner als Haupttext */
-  line-height: 1.5;     /* kompakte Zeilenhöhe */
-}
-
+/* ---------------------------
+   Details- / Media-Blocks
+   --------------------------- */
 .media-block {
   margin-top: 4px;       /* Abstand zum vorherigen <li> */
-  margin-left: 20px;     /* Einrückung, zeigt Zugehörigkeit */
+  margin-left: 20px;     /* Einrückung */
+  font-size: 15px;       /* kleiner als Haupttext */
+  line-height: 1.4;      /* kompaktere Zeilenhöhe */
 }
 
 .media-block summary {
-  font-weight: 600;      /* optional: Summary etwas fett */
+  font-weight: 600;      /* Summary etwas fett */
+  font-size: 15px;       /* kleiner als Haupttext */
   cursor: pointer;
 }
 
 .site-description {
-  margin-top: 4px;       /* Abstand innerhalb des Details */
+  margin-top: 2px;       /* kleiner Abstand nach Summary */
+  font-size: 14px;       /* noch etwas kleiner für Abstract/Text */
   line-height: 1.5;
-  font-size: 16px;
+  margin-bottom: 8px;    /* Abstand zum nächsten <li> */
+}
+
+.media-block a {
+  font-size: 14px;       /* Links kleiner */
 }
