@@ -1,0 +1,36 @@
+/* --- Allgemeine Schrift und Farben --- */
+body {
+  background-color: white;       /* weißer Hintergrund */
+  color: black;                  /* schwarze Schrift */
+  font-family: "Inter", sans-serif; /* moderne Schrift */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* --- Links --- */
+a {
+  color: #1a4f8b;   /* dunkelblau */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d2f52;   /* dunkler beim Hover */
+  text-decoration: underline;
+}
+
+/* --- Überschriften etwas kräftiger --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+/* --- Navigation Links etwas mehr Abstand --- */
+nav a {
+  margin-right: 18px;
+  font-weight: 500;
+}
+
+/* Optional: Footer Schriftfarbe */
+footer {
+  color: #333;
+}
