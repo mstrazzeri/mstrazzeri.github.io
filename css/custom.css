@@ -2,6 +2,115 @@
    Grundlayout: Hintergrund & Body
    =============================== */
 body {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Überschriften
+   =============================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+h1.page-title {
+  color: black !important;
+  font-weight: 600;
+  font-size: 24px !important;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+/* ===============================
+   Links – Standard & Hover
+   =============================== */
+a[href], a {
+  color: #1a4f8b !important;
+  text-decoration: none !important;
+  background: none !important;
+}
+
+a[href]:hover, a[href]:focus, a[href]:active,
+a:hover, a:focus, a:active {
+  color: #0d2f52 !important;
+  text-decoration: underline !important;
+  background: none !important;
+}
+
+/* ===============================
+   Navigation Links
+   =============================== */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin-right: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1a4f8b;
+}
+
+/* Mobile Anpassung */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+/* ===============================
+   Footer
+   =============================== */
+footer {
+  color: #333;
+}
+
+/* ===============================
+   Listen & Listenabstände
+   =============================== */
+ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Details- / Media-Blocks
+   =============================== */
+.media-block {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.media-block summary {
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.site-description {
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.media-block a {
+  font-size: 14px;
+}/* ===============================
+   Grundlayout: Hintergrund & Body
+   =============================== */
+body {
   background-color: white;       /* weißer Hintergrund */
   color: black;                  /* schwarze Schrift */
   font-family: "Inter", sans-serif; /* moderne Schrift */
