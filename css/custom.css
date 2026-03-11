@@ -139,3 +139,19 @@ li + p.media-block {
   font-size: 16px;      /* optional, etwas kleiner als Haupttext */
   line-height: 1.5;     /* kompakte Zeilenhöhe */
 }
+
+.media-block {
+  margin-top: 4px;       /* Abstand zum vorherigen <li> */
+  margin-left: 20px;     /* Einrückung, zeigt Zugehörigkeit */
+}
+
+.media-block summary {
+  font-weight: 600;      /* optional: Summary etwas fett */
+  cursor: pointer;
+}
+
+.site-description {
+  margin-top: 4px;       /* Abstand innerhalb des Details */
+  line-height: 1.5;
+  font-size: 16px;
+}
