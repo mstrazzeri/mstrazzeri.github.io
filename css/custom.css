@@ -100,4 +100,33 @@ h1.page-title {
 }
 
 
+/* Haupt-Container */
+.content {
+  max-width: 900px;        /* Seitenbreite */
+  margin: 0 auto;          /* zentrieren */
+  padding: 20px;
+}
+
+/* Navigation Links inline und responsive */
+nav {
+  display: flex;
+  flex-wrap: wrap;         /* auf Mobile umbrechen */
+  gap: 20px;               /* Abstand zwischen Links */
+  margin-bottom: 30px;
+}
+
+/* Links Styling */
+nav a {
+  text-decoration: none;
+  color: #1a4f8b;
+  font-weight: 500;
+}
+
+/* Mobile Anpassung */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
 
