@@ -132,3 +132,10 @@ nav a {
   }
 }
 
+
+li + p.media-block {
+  margin-top: 4px;      /* kleiner Abstand nach oben zum <li> */
+  margin-left: 20px;    /* Einrückung, passend zum Listeneinzug */
+  font-size: 16px;      /* optional, etwas kleiner als Haupttext */
+  line-height: 1.5;     /* kompakte Zeilenhöhe */
+}
