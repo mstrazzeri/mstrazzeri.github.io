@@ -90,3 +90,14 @@ nav a {
 footer {
   color: #333;
 }
+
+
+h1.page-title {
+  color: black !important;       /* Überschrift schwarz */
+  font-family: "Inter", sans-serif;
+  font-weight: 600;              /* optional: fett */
+  margin-bottom: 16px;           /* optional: Abstand nach unten */
+}
+
+
+
