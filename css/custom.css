@@ -1,4 +1,58 @@
-/* --- Allgemeine Schrift und Farben --- */
+/* ===============================
+   Grundlayout: Hintergrund & Body
+   =============================== */
+body {
+  background-color: white;       /* weißer Hintergrund */
+  color: black;                  /* schwarze Schrift */
+  font-family: "Inter", sans-serif; /* moderne Schrift */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Überschriften
+   =============================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+/* ===============================
+   Links – Standard & Hover
+   =============================== */
+a[href] {
+  color: #1a4f8b !important;       /* dunkelblau */
+  text-decoration: none !important; 
+  background: none !important;      /* Theme Hover-Block entfernen */
+}
+
+a[href]:hover, a[href]:focus, a[href]:active {
+  color: #0d2f52 !important;       /* dunkleres Blau beim Hover */
+  text-decoration: underline !important; /* nur beim Hover unterstreichen */
+  background: none !important;     /* Hover-Block entfernen */
+}
+
+/* ===============================
+   Navigation Links
+   =============================== */
+nav a {
+  margin-right: 18px;
+  font-weight: 500;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+footer {
+  color: #333;
+}
+
+/* ===============================
+   Optional: Listen
+   =============================== */
+ul li {
+  margin-bottom: 12px;
+}/* --- Allgemeine Schrift und Farben --- */
 body {
   background-color: white;       /* weißer Hintergrund */
   color: black;                  /* schwarze Schrift */
