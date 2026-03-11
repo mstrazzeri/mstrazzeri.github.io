@@ -7,15 +7,17 @@ body {
   line-height: 1.6;
 }
 
-/* --- Links --- */
+/* --- Links und Hover --- */
 a {
-  color: #1a4f8b;   /* dunkelblau */
-  text-decoration: none;
+  color: #1a4f8b !important;       /* dunkelblau */
+  text-decoration: none !important; 
+  background: none !important;      /* Theme Hover-Bg entfernen */
 }
 
-a:hover {
-  color: #0d2f52;   /* dunkler beim Hover */
-  text-decoration: underline;
+a:hover, a:focus, a:active {
+  color: #0d2f52 !important;       /* dunkleres Blau beim Hover */
+  text-decoration: underline !important;
+  background: none !important;     /* Hover-Block entfernen */
 }
 
 /* --- Überschriften etwas kräftiger --- */
