@@ -269,6 +269,12 @@ nav a {
   font-size: 14px;       /* Links kleiner */
 }
 
+li > details.media-block {
+  margin-left: 0;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
 /* ===============================
    Publications – Inhaltsverzeichnis
    =============================== */
