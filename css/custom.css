@@ -283,3 +283,43 @@ li > details.media-block {
   line-height: 1.8;
   margin-bottom: 30px;
 }
+
+
+
+/* ===============================
+   Publications – Einheitliche Abstände
+   =============================== */
+
+/* Abstand zwischen Publikationen */
+.publications > ul > li {
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* Kein zusätzlicher Abstand beim letzten Eintrag */
+.publications > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+/* Abstand zwischen Abschnitten */
+.publications > ul {
+  margin-bottom: 45px;
+}
+
+/* Abschnittsüberschriften */
+.publications > h1.page-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+/* Aufklappbare Abstracts */
+.publications li > details.media-block {
+  margin: 5px 0 0 0;
+}
+
+/* Inhaltsverzeichnis */
+.publications .publication-nav {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
